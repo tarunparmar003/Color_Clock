@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.2); 
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  border-radius: 20px;
+  backdrop-filter: blur(10px); 
+  border: 1px solid rgba(255, 255, 255, 0.18); 
+  text-align: center;
+}
+
+h1, p {
+  color: #fff; 
+  margin: 10px 0;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgba(255, 255, 255, 0.3);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.my-pick{
+  font-family: sans-serif;
+  font-size: xx-large;
+  color: rgb(63, 63, 63);
+}
+
+
+.my-slect{
+  width: 200px; 
+  padding: 8px 12px; 
+  font-size: 16px; 
+  font-family: Arial, sans-serif;
+  color: #333; 
+  background: rgba(255, 255, 255, 0.9); 
+  border: 2px solid #ccc; 
+  border-radius: 1rem; 
+  transition: all 0.3s ease; 
+  appearance: none; 
+  cursor: pointer; 
+}
+
+.my-select:hover {
+  border-color: #888;
+  background: rgba(255, 255, 255, 1); 
+}
+
+.my-select:focus {
+  outline: none;
+  border-color: #007BFF; 
+  box-shadow: 5px 5px 5px rgba(0, 123, 255, 0.5); 
+}
+
+.my-select option {
+  font-size: 16px; 
+  color: #333;
+  background: rgba(38, 63, 136, 0.9); 
+}
